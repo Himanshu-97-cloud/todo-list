@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>To Do List</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div class="todo">
+            <h1> TO DO LIST </h1>
+        
+        <form class="container">
+            <input type="text" id="input_text" placeholder="Enter your task" required></input>
+            <textarea type="textarea" id="input_discription" placeholder="Enter you task discription"></textarea>
+            <select id="importance">
+                <option value="low"> Less Priority </option>
+                <option value="medium">Medium Priority</option>
+                <option value="high">High Priority</option>
+            </select>
+            <input type="date" id="date" required>
+            <button type="submit" >Add Task</button>
+            <div class="filters">
+                <button type="active">Active </button>
+                <button type="all tasks">All Task </button>
+                <button type="completed">completed </button>
+            </div>
+            </div>
+            
+                <ul class="list"></ul>
+            
+        </form>
+        <script src="index.js"></script>
+    </body>
+</html>
